@@ -1,0 +1,17 @@
+{
+  "name": "end-of-stream-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "end-of-stream": "^1.4.4",
+    "extension-port-stream": "^1.0.0",
+    "lodash.shuffle": "^4.2.0"
+  }
+}
