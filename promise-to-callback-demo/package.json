@@ -1,0 +1,15 @@
+{
+  "name": "promise-to-callback-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "promise-to-callback": "^1.0.0"
+  }
+}
