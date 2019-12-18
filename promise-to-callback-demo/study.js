@@ -37,5 +37,5 @@ callback = function(err, data) {
     console.log(result); 
 }
 
-promiseToCallback(result)(callback)
+promiseToCallback(result)(callback) // Promise { 3 }
 
