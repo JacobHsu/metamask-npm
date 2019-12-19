@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML5 使用postMessage在不同網頁之間傳送文字訊息(接收頁面)</title>
+        <style>
+        </style>
+        <script>
+            var myMsg = function(e) {
+                alert("接收到的訊息：" + e.data);
+                alert("訊息來源網域：" + e.origin);
+                if (e.origin != "http://127.0.0.1:8888") {
+                    alert("不明來源,不處理");
+                    return; //不明來源,不處理
+                }
+
+                document.getElementById("res").innerHTML = "接收到的訊息：" + e.data;
+            };
+            window.addEventListener("message", myMsg, false);//監聽message事件
+        </script>
+    </head>
+    <body>
+        HTML5 使用postMessage在不同網頁之間傳送文字訊息(接收頁面)
+        <div id="res"></div>
+    </body>
+</html>
