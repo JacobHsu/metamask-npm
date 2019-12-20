@@ -9,8 +9,8 @@ A node module that calls a callback when a readable/writable/duplex stream has c
 [extension-port-stream](https://www.npmjs.com/package/extension-port-stream)
 A module for creating a node-style stream over a WebExtension port object.
 
-
 [promise-to-callback](https://www.npmjs.com/package/promise-to-callback)
 metamask-extension\app\scripts\lib\nodeify.js
 
-
+[clone](https://www.npmjs.com/package/clone)
+  
