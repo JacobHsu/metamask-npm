@@ -13,4 +13,18 @@ A module for creating a node-style stream over a WebExtension port object.
 metamask-extension\app\scripts\lib\nodeify.js
 
 [clone](https://www.npmjs.com/package/clone)
-  
+[xtend](https://www.npmjs.com/package/xtend)
+
+## Usage
+
+`$ npm init -y`
+
+package.json
+
+```js
+"scripts": {
+    "test": "node index"
+},
+```
+
+`$ npm run test`

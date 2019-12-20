@@ -1,0 +1,15 @@
+{
+  "name": "xtend-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xtend": "^4.0.2"
+  }
+}
