@@ -1,7 +1,7 @@
 var eos = require('end-of-stream');
 const PortStream = require('extension-port-stream');
 
-extension.runtime.onConnect.addListener(connectRemote)
+//extension.runtime.onConnect.addListener(connectRemote)
 const readableStream = new PortStream(remotePort)
  
 eos(readableStream, function(err) {

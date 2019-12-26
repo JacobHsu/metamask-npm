@@ -3,7 +3,6 @@
 [pump](https://www.npmjs.com/package/pump)  
 pump is a small node module that pipes streams together and destroys all of them if one of them closes.
 
-
 [end-of-stream](https://www.npmjs.com/package/end-of-stream)
 A node module that calls a callback when a readable/writable/duplex stream has completed or failed.
 [extension-port-stream](https://www.npmjs.com/package/extension-port-stream)
@@ -14,6 +13,8 @@ metamask-extension\app\scripts\lib\nodeify.js
 
 [clone](https://www.npmjs.com/package/clone)
 [xtend](https://www.npmjs.com/package/xtend)
+
+[bip39](https://www.npmjs.com/package/bip39)
 
 ## Usage
 
