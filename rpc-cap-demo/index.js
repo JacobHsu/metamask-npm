@@ -1,3 +1,4 @@
+// https://github.com/MetaMask/rpc-cap/blob/master/README.md
 // https://socket.io/get-started/chat/
 // app\scripts\controllers\permissions\index.js
 var app = require('express')();
