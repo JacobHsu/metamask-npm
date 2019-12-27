@@ -16,6 +16,8 @@ metamask-extension\app\scripts\lib\nodeify.js
 
 [bip39](https://www.npmjs.com/package/bip39)
 
+[jazzicon](https://www.npmjs.com/package/jazzicon)
+
 ## Usage
 
 `$ npm init -y`
