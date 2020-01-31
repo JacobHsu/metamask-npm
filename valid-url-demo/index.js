@@ -1,3 +1,5 @@
+// ui\app\pages\settings\networks-tab\network-form\network-form.component.js
+
 var validUrl = require('valid-url');
 
 const suspect = 'https://www.npmjs.com/package/valid-url'
