@@ -13,6 +13,6 @@
     "express": "^4.17.1",
     "json-rpc-engine": "^5.1.5",
     "rpc-cap": "^1.0.3",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.4.0"
   }
 }
